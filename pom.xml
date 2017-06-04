@@ -7,20 +7,6 @@
   <artifactId>spring-petclinic</artifactId>
   <packaging>war</packaging>
   <version>1.5.1</version>
-    <distributionManagement>
-      <!-- Publish the versioned releases here -->
-      <repository>
-         <id>releases</id>
-         <name>Releases</name>
-         <url>http://192.168.0.103:8081/nexus/content/repositories/releases</url>
-      </repository>
-      <!-- Publish the versioned releases here -->
-      <snapshotRepository>
-         <id>snapshots</id>
-         <name>Snapshots</name>
-         <url>http://192.168.0.103:8081/nexus/content/repositories/snapshots</url>
-      </snapshotRepository>
-   </distributionManagement>
   <parent>
     <groupId>org.springframework.boot</groupId>
     <artifactId>spring-boot-starter-parent</artifactId>
